@@ -1,0 +1,47 @@
+{
+  "run_id": "run_2026_04_01_231819",
+  "timestamp": "2026-04-01T23:18:19",
+  "mode": "LED",
+  "result": "PASS",
+  "reason": "Stable GREEN LED detected",
+  "roi": {
+    "x": 184,
+    "y": 235,
+    "w": 248,
+    "h": 221
+  },
+  "observation": {
+    "label": "GREEN",
+    "confidence": 1.0,
+    "details": {
+      "green_area": 38637,
+      "red_area": 0
+    },
+    "debug": {
+      "green_bbox": [
+        16,
+        8,
+        200,
+        210
+      ],
+      "red_bbox": null
+    }
+  },
+  "stable_state": {
+    "stable_label": "GREEN",
+    "vote_ratio": 1.0,
+    "counts": {
+      "GREEN": 3
+    },
+    "is_stable": true,
+    "history": [
+      "GREEN",
+      "GREEN",
+      "GREEN"
+    ],
+    "max_consecutive": 3
+  },
+  "frame_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\frames\\run_2026_04_01_231819.png",
+  "roi_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\rois\\run_2026_04_01_231819.png",
+  "video_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\videos\\run_2026_04_01_231819.mp4"
+}
