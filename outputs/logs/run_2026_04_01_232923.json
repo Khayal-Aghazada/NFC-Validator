@@ -1,0 +1,59 @@
+{
+  "run_id": "run_2026_04_01_232923",
+  "timestamp": "2026-04-01T23:29:23",
+  "mode": "OCR",
+  "result": "FAIL",
+  "reason": "Stable fail text detected",
+  "roi": {
+    "x": 179,
+    "y": 195,
+    "w": 297,
+    "h": 89
+  },
+  "observation": {
+    "label": "DECLINED",
+    "confidence": 1.0,
+    "details": {
+      "raw_text": "DECLINED"
+    },
+    "debug": {
+      "ocr_boxes": [
+        [
+          [
+            22,
+            16
+          ],
+          [
+            265,
+            16
+          ],
+          [
+            265,
+            73
+          ],
+          [
+            22,
+            73
+          ]
+        ]
+      ]
+    }
+  },
+  "stable_state": {
+    "stable_label": "DECLINED",
+    "vote_ratio": 1.0,
+    "counts": {
+      "DECLINED": 3
+    },
+    "is_stable": true,
+    "history": [
+      "DECLINED",
+      "DECLINED",
+      "DECLINED"
+    ],
+    "max_consecutive": 3
+  },
+  "frame_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\frames\\run_2026_04_01_232923.png",
+  "roi_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\rois\\run_2026_04_01_232923.png",
+  "video_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\videos\\run_2026_04_01_232922.mp4"
+}

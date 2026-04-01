@@ -1,0 +1,47 @@
+{
+  "run_id": "run_2026_04_01_232503",
+  "timestamp": "2026-04-01T23:25:03",
+  "mode": "LED",
+  "result": "FAIL",
+  "reason": "Stable RED LED detected",
+  "roi": {
+    "x": 153,
+    "y": 146,
+    "w": 254,
+    "h": 235
+  },
+  "observation": {
+    "label": "RED",
+    "confidence": 1.0,
+    "details": {
+      "green_area": 0,
+      "red_area": 32654
+    },
+    "debug": {
+      "green_bbox": null,
+      "red_bbox": [
+        21,
+        24,
+        195,
+        189
+      ]
+    }
+  },
+  "stable_state": {
+    "stable_label": "RED",
+    "vote_ratio": 1.0,
+    "counts": {
+      "RED": 3
+    },
+    "is_stable": true,
+    "history": [
+      "RED",
+      "RED",
+      "RED"
+    ],
+    "max_consecutive": 3
+  },
+  "frame_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\frames\\run_2026_04_01_232503.png",
+  "roi_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\rois\\run_2026_04_01_232503.png",
+  "video_path": "C:\\Main\\Code\\CV projects\\NFC Validator\\outputs\\videos\\run_2026_04_01_232503.mp4"
+}
